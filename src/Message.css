@@ -2,15 +2,24 @@
     padding: 10px;
     margin: 10px;
     width: fit-content;
+    border-radius: 20px;
 }
 .message__user {
     margin-left: auto;
     color: white;
-    text-align: left !important;
+    text-align: right !important;
 }
 .message__userCard {
     background-color: blue !important;
+    color: white !important;
+    border-radius: 20px !important;
+    -webkit-box-shadow: 5px 5px 8px 5px #000000 !important; 
+    box-shadow: 5px 5px 8px 5px #000000 !important;
 }
 .message__questCard {
     background-color: gray !important;
+    color: black !important;
+    border-radius: 20px !important;
+    -webkit-box-shadow: 5px 5px 8px 5px #000000 !important; 
+box-shadow: 5px 5px 8px 5px #000000 !important;
 }
