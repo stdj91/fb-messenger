@@ -6,16 +6,22 @@
     height: auto;
 }
 .app__form {
-    padding: 20px;
+    padding: 2%;
     position: fixed;
     bottom: 20px;
     z-index: 1;
     background-color: #e9e9eb;
-    width: 100%;
+    width: 92%;
     margin: 20px;
     justify-content: center;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .app__form {
+        width: 70%;
+
+    }
+  }
 .app__formControl {
     display: flex !important;
     flex-direction: row !important;
